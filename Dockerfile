@@ -1,7 +1,7 @@
 FROM ubuntu
-COPY a1 a2 .
+COPY a .
 WORKDIR /flm/work/task/
-COPY a3 a4 .
+COPY b .
 RUN apt update -y
 RUN apt install git -y
 LABEL this is a task
